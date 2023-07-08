@@ -1,0 +1,126 @@
+.client {
+  margin-top: 150px;
+  height: 597px;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.heading h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.heading p {
+  color: #757575;
+  line-height: 27px;
+  font-size: 16px;
+}
+
+.client_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  width: 352px;
+  margin-top: -64px;
+}
+
+.text h4 {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.text p {
+  color: #565656;
+  font-size: 14px;
+  margin-bottom: 25px;
+  padding-right: 42px;
+}
+
+.dotscontainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.userimages {
+  flex: 1;
+  position: relative;
+  height: 360px;
+}
+
+.middle {
+  position: absolute;
+  top: 34%;
+  left: 34%;
+}
+
+.one {
+  position: absolute;
+  top: 10px;
+  left: 130px;
+}
+.two {
+  position: absolute;
+  right: 55px;
+  top: 67px;
+}
+.three {
+  position: absolute;
+  right: 19px;
+  top: 167px;
+}
+.four {
+  position: absolute;
+  bottom: 34px;
+  left: 223px;
+}
+.five {
+  position: absolute;
+  bottom: 0;
+  left: 84px;
+}
+.six {
+  position: absolute;
+  left: 0;
+  top: 194px;
+}
+.seven {
+  position: absolute;
+  top: 58px;
+}
+
+.dotss {
+  position: absolute;
+  z-index: -1;
+  top: 144px;
+  left: 430px;
+}
+
+.pcircle {
+  position: absolute;
+  z-index: -1;
+  left: 194px;
+  bottom: 31px;
+}
+
+.yellow {
+  position: absolute;
+  z-index: -1;
+  right: 315px;
+  top: 340px;
+}

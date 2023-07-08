@@ -1,0 +1,48 @@
+.navbar {
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .logo {
+  width: 120px;
+  cursor: pointer;
+} */
+
+.logo {
+  width: 120px;
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.a {
+  font-weight: 600;
+}
+.links {
+  width: 645px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+
+.link {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.link:hover {
+  color: #2639ed;
+}

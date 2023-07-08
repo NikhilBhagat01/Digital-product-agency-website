@@ -1,0 +1,93 @@
+.newsletter {
+  height: 387px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f4f9ff;
+  border-radius: 88px;
+  display: flex;
+  align-items: center;
+  gap: 83px;
+  width: 70%;
+  height: 292px;
+  padding-left: 54px;
+}
+
+.subscribe h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.subscribe p {
+  color: #757575;
+  font-size: 15px;
+}
+
+.contact_form {
+  border-radius: 32px;
+  width: 37%;
+  overflow: hidden;
+}
+
+.input_container {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  z-index: 2;
+  position: relative;
+}
+
+.input_container input {
+  border: none;
+  height: 100%;
+  padding: 17px 26px;
+}
+.input_container input:focus {
+  outline: none;
+}
+
+.input_container button {
+  padding: 11px 26px;
+  margin-right: 6px;
+  border-radius: 25px;
+  border: none;
+  background-color: #2639ed;
+  color: white;
+}
+
+.yellow {
+  position: absolute;
+  left: 184px;
+  top: 189px;
+  z-index: -1;
+}
+
+.dots {
+  position: absolute;
+  z-index: -1;
+  right: 195px;
+  top: 4px;
+}
+
+.bluebox {
+  position: absolute;
+  background-color: #2639ed;
+  /* z-index: -1; */
+  height: 100%;
+  width: 439px;
+  right: 0;
+  border-top-left-radius: 147px;
+  border-bottom-left-radius: 199px;
+  border-top-right-radius: 95px;
+  border-bottom-right-radius: 95px;
+}
